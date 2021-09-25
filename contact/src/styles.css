@@ -1,0 +1,128 @@
+/* You can add global styles to this file, and also import other style files */
+ @import "~../node_modules/bootstrap/dist/css/bootstrap.min.css";
+/* @import "~font-awesome/css/font-awesome.css"; */ 
+
+
+form div.input-field input{
+    padding-left: 15px !important;
+    color: #7612e9;
+}
+
+input.ng-invalid.ng-dirty{
+    border-bottom-color : #e91e63 !important;
+    box-shadow: 0 1px 0 0 #e91e63 !important;
+}
+
+.input-field>label{
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-family: monospace;
+}
+
+.btn-custom,.btn-custom:hover,.btn-custom:focus{
+    background-color: transparent;
+    font-size: 1.1rem;
+    font-family: cursive;
+    margin : 0px 5px;
+    border: rgb(226, 21, 21) solid 1px ;
+    text-transform:none;
+}
+
+div.card{
+    background-color : #e3ee4e;
+    border-radius: 0px;
+}
+
+.vl {
+    border-left: 2px solid #b81313;
+    height: 500px;
+}
+
+a.action-btn{
+    color: #aca29d ;
+    margin: 0px 5px;
+
+}
+
+a.action-btn:hover{
+    color: #1b130e ;
+    margin: 0px 5px;
+
+}
+
+a.action-btn:hover{
+    cursor: pointer;
+
+}
+
+#toast-container {
+    top: auto !important;
+    right: auto !important;
+    bottom: 80%;
+    left:7%;
+  } 
+
+
+  .con{
+      text-align: center;
+      text-decoration: #e91e63;
+      font-family: serif;
+      border-radius: 50px;
+      background-color: #ee4e5b;
+  }
+
+  .All{
+      background-color: #e3ee4e;
+  }
+
+  /* .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+  
+    
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+  
+    
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  
+
+
+
+  .tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black; /* If you want dots under the hoverable text 
+  }
+
+
+  .tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+  }
+  
+  
+
+
+
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  } */
+  
